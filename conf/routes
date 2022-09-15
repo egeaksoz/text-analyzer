@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Serve index page from public directory
+GET     /                           controllers.FrontendController.index()
+
+# Analyze
++nocsrf
+POST /analyze                       controllers.WordslistController.analyze()
+
+# Result
+GET /result                         controllers.WordslistController.results()

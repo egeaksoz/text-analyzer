@@ -1,0 +1,11 @@
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/public
+/.g8
+.DS_Store
+/RUNNING_PID
